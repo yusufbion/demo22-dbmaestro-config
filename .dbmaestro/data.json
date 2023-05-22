@@ -1,0 +1,65 @@
+{
+  "Projects": [
+    {
+      "GlobalData": {
+        "ProjectId": "9c75e28f-f042-4030-83da-885b0181f2b9",
+        "ProjectName": "BATU3",
+        "DBTypeName": "Oracle",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {
+            "MetadataConfiguration": {
+              "QueryGrants": true,
+              "QueryComments": true,
+              "IgnoreDoubleQuotes": true,
+              "CreationScriptDelimiter": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Object, System.Private.CoreLib]], System.Private.CoreLib",
+                "Grants": "-- GRANTS --",
+                "Comment": "-- COMMENT --"
+              }
+            },
+            "ValidationConfiguration": {
+              "CompareObjectGrants": true,
+              "CompareObjectComments": true,
+              "CompareCommentsInCode": true,
+              "IgnoreWhiteSpaces": false,
+              "IgnoreCase": true,
+              "IgnoreDoubleQuotes": false,
+              "IgnoreForceKeyword": true,
+              "IgnoreCustomCharachters": false,
+              "CustomCharachtersList": ""
+            },
+            "BuildConfiguration": {
+              "DMLDefferConstraints": true,
+              "DMLTransaction": true,
+              "PreserveDataOfRestructuredTables": true,
+              "FieldNameWrapper": "\"",
+              "TempTablePrefix": "DBMTMP_"
+            }
+          },
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "PreventCommitObjectWithConflict": false,
+          "UseCache": null,
+          "IgnoreTextualChangesBasedOnMetadata": true
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": ""
+      },
+      "UserData": [
+        {
+          "UserName": "yusufbion",
+          "DatabasesData": []
+        }
+      ],
+      "DatabasesStaticDataObjects": null
+    }
+  ],
+  "GlobalConfigurations": null,
+  "RepositoryConfiguration": null,
+  "GeneralConfigurations": {
+    "SupportMultiDatabasePerProject": false
+  }
+}
